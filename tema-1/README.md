@@ -6,9 +6,8 @@
 Înainte de a parcurge aceste materiale, ar trebui să aveți configurat
 [mediul de lucru](/env).
 
-Pentru proiect, voi presupune că ați făcut un repository nou pe baza repository-ului template corespunzător grupei
-voastre și că v-ați clonat local
-repository-ul vostru.
+Pentru proiect / teme, va trebui să aveți un git repository (se acceptă și unul comun pentru toate temele).
+În special dacă faceți un proiect mai mare, recomand să folosiți unul dintre template-urile de mai jos.
 
 ### Template proiect
 
@@ -25,12 +24,25 @@ echivalentă:
 - CMakelists.txt (sau un fișier pentru alt sistem de build portabil)
 - flags pentru warnings (de asemenea trebuie să fie portabile)
 - eventualele configurații pentru biblioteci externe de asemenea trebuie să fie portabile
-- serviciu de integrare continuă (pe scurt CI = continuous integration)
+- serviciu de integrare continuă (continuous integration) -- opțional
 - distribuire fișiere binare (executabile) cu toate fișierele auxiliare necesare
 - fișier README cu o scurtă descriere
 
-Pentru diverse exerciții, este suficient să vă configurați afișarea de warnings. Desigur, trebuie să
-și țineți cont de warnings și să le eliminați pentru că **nu sunt degeaba**.
+Portabilitatea nu este necesară, dar trebuie să vă asigurați că puteți rula proiectul pe calculatorul pe care veți prezenta (care poate fi laptopul propriu). Dacă proiectul este protabil, va fi punctat extra.
+
+## Cetințe tema 1
+
+Notă: Puteți prezenta clasa de `vector` pe care lucrăm la laborator având în vedere că acoperă toate cerințele, dar aceasta trebuie să fie completă și să îi adăugați voi o funcționalitate extra (la alegere) și teste pentru ea.
+
+Tema 1 trebuie să conțină (și să arate că știți să folosiți):
+
+- câmpuri + metode publice și private
+- constructori
+- destructori
+- folosirea coerentă și motivată a `const` și referință (`&`)
+- supraîncărcare de operatori (inclusiv operatorii `>>` -- citire și `<<` -- afișare)
+- teste
+- să nu aveți memorie reziduală (memory leaks), în caz că faceți alocări dinamice
 
 **Pentru introducere/recapitulare a noțiunilor de bază din limbajele C și C++,
 citiți de [aici](intro_recap_c_cpp.md).**
