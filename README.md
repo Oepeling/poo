@@ -13,8 +13,7 @@ Nota maximă este 12 (2p bonus). Punctele bonus se acordă doar după îndeplini
 - Tema 2: 4 puncte
 - Tema 3: 3 puncte
 
-Evitați codul generat pe care nu îl înțelegeți. Proiectele cu cod adăugat "ca să fie" sau care complică logica inutil *
-*vor fi depunctate**.
+Evitați codul generat pe care nu îl înțelegeți. Proiectele cu cod adăugat "ca să fie" sau care complică logica inutil *vor fi depunctate*.
 
 **Evaluarea se face _pe tot parcursul semestrului_.**
 
