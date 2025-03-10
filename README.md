@@ -17,7 +17,7 @@ Evitați codul generat pe care nu îl înțelegeți. Proiectele cu cod adăugat 
 
 **Evaluarea se face _pe tot parcursul semestrului_.**
 
-### Prezența este obligatorie pentru minim 3 laboratoare cât să prezentați temele și să vă primiți notele!
+### Prezența este obligatorie pentru minim 3 laboratoare cât să prezentați temele și să vă primiți notele
 
 Prezentări teme:
 
