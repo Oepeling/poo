@@ -44,9 +44,9 @@ Ca să vă faceți o idee despre ce ați putea face, uitați-vă pe [proiectele 
 
 ### Teme
 #### [Configurarea mediului de lucru](env)
-#### [Tema 1](tema-1) - compunere, constructori, cc, op=, destr, op<<
-#### [Tema 2](tema-2) - moștenire, virtual, excepții, dynamic_cast
-#### [Tema 3](tema-3) - templates (șabloane), design patterns (șabloane de proiectare)
+#### [Tema 1](Laborator/tema-1) - compunere, constructori, cc, op=, destr, op<<
+#### [Tema 2](Laborator/tema-2) - moștenire, virtual, excepții, cast
+#### [Tema 3](Laborator/tema-3) - moștenire tip diamant, templates (șabloane), design patterns (șabloane de proiectare)
 
 ---
 

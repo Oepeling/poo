@@ -15,8 +15,11 @@ Tema 1 trebuie să conțină (și să arate că știți să folosiți):
 - câmpuri + metode publice și private
 - constructori
 - destructori
-- folosirea coerentă și motivată a `const` și referință (`&`)
 - supraîncărcare de operatori (inclusiv operatorii `>>` -- citire și `<<` -- afișare)
+
+Cerințe compune pentru toate temele și proiectele:
+
+- folosirea coerentă și motivată a `const` și referință (`&`)
 - teste
 - să nu aveți memorie reziduală (memory leaks), în caz că faceți alocări dinamice
 

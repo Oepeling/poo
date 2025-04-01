@@ -3,13 +3,24 @@
 ### ⚠ Puneți cât mai multe întrebări! Nu există întrebări greșite.
 #### Semnalați orice fel de greșeli găsiți!
 
-[//]: # (TODO de adăugat la sfârșit sintaxa în alte limbaje ~~populare~~ studiate în facultate)
+## Cetințe tema 2
 
-[//]: # ([ordonate aproximativ după popularitate])
+Tema 2 trebuie să conțină (și să arate că știți să folosiți):
 
-[//]: # ( Java/Scala/Kotlin, C#, Python, JavaScript/TypeScript, Objective-C/Swift, Dart, PHP, R, Ruby, Perl)
+- moșteniri
+- funcții virtuale
+- excepții (și handling de excepții)
+- dynamic_cast sau static_cast => va trebui să folosiți pointeri
+- optional: puteți include moșteniri tip diamant aici în loc de tema 3
+- **bonus points:** o clasă abstractă
 
-[//]: # ( ?? plus clasificare static/dinamic typed??)
+Cerințe compune pentru toate temele și proiectele:
+
+- folosirea coerentă și motivată a `const` și referință (`&`)
+- teste
+- să nu aveți memorie reziduală (memory leaks), în caz că faceți alocări dinamice
+
+## Teorie
 
 ### Moșteniri
 
