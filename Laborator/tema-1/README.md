@@ -19,6 +19,7 @@ Tema 1 trebuie să conțină (și să arate că știți să folosiți):
 
 Cerințe compune pentru toate temele și proiectele:
 
+- folosirea coerentă și motivată a specificatorilor de acces (`private`, `protected`, `public`)
 - folosirea coerentă și motivată a `const` și referință (`&`)
 - teste
 - să nu aveți memorie reziduală (memory leaks), în caz că faceți alocări dinamice
