@@ -10,9 +10,9 @@ de licitație.
 Fiecare obiect ce se găsește la licitație are un ID unic, prin care este identificat în inventarul companiei.
 În momentul prezentării se anunță numele, data sau era aproximativă din care datează și prețul inițial de listare.
 Aceste artefacte se pot încadra în mai multe categorii:
-• artefacte istorice, pentru care ne interesează numele persoanelor renumite cu care este asociat
-• artefacte artistice, pentru care se dorește să se cunoască tipul (pictură, sculptură) și materialul (acrilic, ulei pentru picturi, lemn, piatră sau marmură pentru sculpturi)
-• artefacte prețioase, pentru care se anunță numele designer-ului (sau “Necunoscut” dacă nu se cunoaște) și greutatea (în grame)
+- artefacte istorice, pentru care ne interesează numele persoanelor renumite cu care este asociat
+- artefacte artistice, pentru care se dorește să se cunoască tipul (pictură, sculptură) și materialul (acrilic, ulei pentru picturi, lemn, piatră sau marmură pentru sculpturi)
+- artefacte prețioase, pentru care se anunță numele designer-ului (sau “Necunoscut” dacă nu se cunoaște) și greutatea (în grame)
 
 La licitație fiecare entitate se identifică printr-un număr unic pe care îl ridică în momentul în care vor să anunțe interesul pentru artefact. Aceștia pot fi persoane fizice (pentru care se cunoaște numele real sau un alias), sau persoane juridice (pentru care se cunoaște numele organizației și persoanele fizice ce reprezintă organizația).
 
@@ -25,13 +25,13 @@ Persoanele fizice continuă licitarea, dacă se încadrează în bugetul propriu
 Persoanele juridice continuă licitarea dacă jumătate din reprezentanți aleg să continue licitația sau dacă este un obiectiv al companiei și minim o persoană alege să continue (și este ignorat, dacă compania ignoră acel tip de articol).
 
 Aplicația va ilustra următoarele funcționalități:
-• adăugarea de participanți
-• adăugarea de artefacte
-• afișarea participanților
-• afișarea articolelor ce sunt disponibile pentru licitație
-• simularea unei sesiunii de licitații pentru un artefact cu valoarea unui ID dat de la tastatură și efectuarea operațiilor aferente (scăderea bugetului, eliminarea din inventar și adăugarea într-un istoric de licitație)
-• afișarea participanților în ordine descrescătoare numărului de artefacte cumpărate
-• afișarea obiectelor cumpărate în ordinea descrescătoare a prețului cu care au fost cumpărate
+- adăugarea de participanți
+- adăugarea de artefacte
+- afișarea participanților
+- afișarea articolelor ce sunt disponibile pentru licitație
+- simularea unei sesiunii de licitații pentru un artefact cu valoarea unui ID dat de la tastatură și efectuarea operațiilor aferente (scăderea bugetului, eliminarea din inventar și adăugarea într-un istoric de licitație)
+- afișarea participanților în ordine descrescătoare numărului de artefacte cumpărate
+- afișarea obiectelor cumpărate în ordinea descrescătoare a prețului cu care au fost cumpărate
 
 Pentru sortări, folosiți `std::sort`, nu sortări implementate manual (în $O(n^2)$). Cel mai simplu
 este să folosiți funcții lambda pentru funcțiile de comparare.
