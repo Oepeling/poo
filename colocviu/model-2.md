@@ -1,4 +1,49 @@
-### Variantă de rezolvare colocviu ianuarie 2023
+# Variantă de rezolvare colocviu ianuarie 2023
+
+## Cerință
+
+După 2 ani de online, Facultatea de Matematică și Informatică este în plină activitate și pe timp de iarnă.
+Deși până acum nu prea au fost ninsori, nu știm ce ne rezervă viitorul.
+Dornici să vină la facultate indiferent de condițiile meteorologice, studenții au proiectat în AutoCAD®
+mai multe unelte de deszăpezire.
+
+Studenții s-au grupat pe echipe într-o competiție ca să afle ce combinație de unelte dă zăpada mai bine.
+
+Toate uneltele de deszăpezire au următoarele caracteristici comune: serie (string de lungime minim 3),
+număr de serie (număr natural nenul) și culoare.
+
+- Seria și numărul sunt fixe și identifică în mod unic o unealtă.
+- Culoarea se alege dintr-o paletă prestabilită și trebuie validată (de program sau de compilator).
+- Fiecare unealtă are un timp de deszăpezire și un consum de energie determinate prin formule specifice. Acestea depind de suprafața curățată dată ca parametru.
+
+Există 3 tipuri de unelte: lopeți electrice, drone și unelte prototip.
+
+Pentru lopețile electrice se cunosc suprafața fărașului și capacitatea bateriei.
+
+- Timp lopată = `suprafața curățată / std::sqrt(suprafață făraș)`
+- Consum energie lopată = `std::pow(suprafața curățată, 2) * capacitate baterie`
+
+Dronele au o altitudine maximă și un număr de motoare.
+
+În plus, dronele au o funcționalitate specială de dat jos țurțuri.
+Există o mică probabilitate ca operația să eșueze (folosiți o funcție de numere aleatoare și alegeți o probabilitate).
+
+- Timp dronă = `std::log(suprafața curățată) * std::tanh(altitudine maximă)`
+- Consum energie dronă = `suprafața curățată * std::pow(număr motoare, 3)`
+
+Uneltele prototip au 2 atribute numerice. Toate echipele folosesc aceleași formule pentru prototipuri.
+Aveți de implementat aceste formule la liberă alegere.
+
+Fiecare echipă are un nume, un motto și mai multe unelte (se pot repeta). Două echipe pot avea aceleași unelte, însă pot fi calibrate cu alți parametri.
+
+Echipele se înscriu într-o competiție unică și sunt clasificate pe 2 categorii: timp minim de deszăpezire și consum minim de energie.
+
+Implementați clasificările echipelor și propuneți formule pentru uneltele prototip. Pentru cele 2 categorii din competiție (timp minim și consum minim), se afișează toate informațiile despre fiecare echipă și totalul la nivel de echipă.
+
+Pentru punctaj maxim, toate clasele și funcțiile trebuie folosite direct/indirect din `main`.
+Se permit devieri minimale de la subiect dacă se consideră mai natural astfel.
+
+## Rezolvare
 
 În continuare, prezentăm subiectul din ianuarie 2023 împreună cu variante posibile de rezolvare.
 
